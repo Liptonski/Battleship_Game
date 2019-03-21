@@ -24,7 +24,7 @@ class Hull():
 
     def create_PC(self, size, water_taken):
 
-        # Stworzyć tablice wspolrzednych lini oddzielajacych kwadraty
+        # Stworzyć tablice wspolrzędnych lini oddzielajacych kwadraty
         lines_list=[]
         for i in range(1, 11):
             lines_list.append(space*i)
